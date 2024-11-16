@@ -39,7 +39,7 @@ Follow these steps to set up and run the Next.js application on your local machi
     2. Using yarn: `yarn dev`
 5. Open your browser and navigate to `http://localhost:3000` to view the application
 
-Note: If not able to install dependencies in step 3, please add --force flag at the end and try installing again.
+Note: If not able to install dependencies in step 3, please add `--force` flag at the end and try installing again.
 
 ## Component Structure
 The date picker is composed of several components:
