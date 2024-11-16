@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Recurring Date Picker
 
-## Getting Started
+## Table of Contents
+- Introduction
+- Features
+- Technologies Used
+- Installation and Usage
+- Component Structure
+- Browser Support
+- Contributing
+- Acknowledgments
+- Contact
 
-First, run the development server:
+## Introduction
+A modern, flexible Next.js component for selecting and visualizing recurring dates. This component provides an intuitive interface for creating recurring events with daily, weekly, monthly, or yearly patterns, complete with a visual calendar preview.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- 📅 Visual calendar preview with recurring date highlighting
+- 🔄 Multiple recurrence patterns (daily, weekly, monthly, yearly)
+- 📊 Customizable intervals for daily recurrence
+- 📆 Weekly day selection with multi-day support
+- 🎯 Start and end date boundaries
+- 🎨 Clean, modern UI with Tailwind CSS
+- 📱 Responsive design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript, Next.js, TailwindCSS
+- State Management: Zustand
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation and Usage
+Follow these steps to set up and run the React application on your local machine:
+1. Clone the repository: `https://github.com/dhanasekhardsv/recurring-date-picker.git`
+2. Navigate to the project directory: `cd recurring-date-picker`
+3. Install dependencies:
+    1. Using npm: `npm install`
+    2. Using yarn: `yarn install`
+4. Start the development server:
+    1. Using npm: `npm run dev`
+    2. Using yarn: `yarn dev`
+5. Open your browser and navigate to `http://localhost:3000` to view the application
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Note: If not able to install dependencies in step 3, please add --force flag at the end and try installing again.
 
-## Learn More
+## Component Structure
+The date picker is composed of several components:
+- `StartEndDatePicker`: Handles date range selection
+- `RecurrenceOptions`: Manages recurrence patterns and options
+- `CalendarPreview`: Displays visual preview of selected dates
+- `useDatePickerStore`: Centralized state management using Zustand
 
-To learn more about Next.js, take a look at the following resources:
+## Browser Support
+- Chrome
+- Firefox
+- Safari
+- Edge
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the coding standards for new features.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgments
+- Built with Next.js and Zustand
+- Styled with Tailwind CSS
+- Icons from Lucide React
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+For any questions or feedback, please contact me at `dhanasekhardsv@gmail.com` or `https://www.linkedin.com/in/dhana-sekhar/`.
