@@ -12,7 +12,7 @@ const RecurrenceOptions = () => {
             <div className="flex flex-wrap gap-2">
                 {RECURRENCE_OPTIONS.map((option) => (
                     <button key={option} onClick={() => setRecurrenceType(option)}
-                        className={`px-4 py-2 rounded-md capitalize transition-colors ${recurrenceType === option ? 'bg-blue-500 text-white' : 'bg-gray-100 hover:bg-gray-200'}`}>
+                        className={`px-4 py-2 rounded-md capitalize transition-colors ${recurrenceType === option ? 'bg-blue-500 text-white' : 'bg-gray-200 hover:bg-gray-300'}`}>
                         {option}
                     </button>
                 ))}
