@@ -28,7 +28,7 @@ A modern, flexible Next.js component for selecting and visualizing recurring dat
 - State Management: Zustand
 
 ## Installation and Usage
-Follow these steps to set up and run the React application on your local machine:
+Follow these steps to set up and run the Next.js application on your local machine:
 1. Clone the repository: `https://github.com/dhanasekhardsv/recurring-date-picker.git`
 2. Navigate to the project directory: `cd recurring-date-picker`
 3. Install dependencies:
@@ -59,7 +59,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## Acknowledgments
 - Built with Next.js and Zustand
-- Styled with Tailwind CSS
+- Styled with TailwindCSS
 - Icons from Lucide React
 
 ## Contact
