@@ -10,11 +10,7 @@ const CalendarPreview = () => {
     const { startDate, endDate, recurrenceType, interval, selectedDays } = useDatePickerStore();
 
     const navigateMonth = (direction) => {
-        setCurrentDate(new Date(
-            currentDate.getFullYear(),
-            currentDate.getMonth() + direction,
-            1
-        ));
+        setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() + direction, 1));
     };
 
     return (
