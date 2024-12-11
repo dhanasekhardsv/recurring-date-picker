@@ -2,12 +2,11 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import React, { useState } from 'react'
 import { getDaysInMonth, isRecurringDate } from '../utils';
 import { MONTHS, WEEK_DAYS } from '../constants/date-picker';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const CalendarPreview = () => {
     const [currentDate, setCurrentDate] = useState(new Date());
     const { startDate, endDate, recurrenceType, interval, selectedDays } = useSelector(store => store.datePicker);
-    const dispatch = useDispatch();
 
     const navigateMonth = (direction) => {
         setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() + direction, 1));
